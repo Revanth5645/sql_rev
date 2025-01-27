@@ -1,0 +1,5 @@
+-- Rename a table
+ALTER TABLE old_table_name RENAME TO new_table_name;
+
+-- Rename a column
+ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;

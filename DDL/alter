@@ -1,0 +1,15 @@
+-- Add a new column to an existing table
+ALTER TABLE table_name
+ADD column_name datatype;
+
+-- Modify an existing column in a table
+ALTER TABLE table_name
+MODIFY column_name new_datatype;
+
+-- Drop a column from an existing table
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+-- Rename a column in an existing table
+ALTER TABLE table_name
+RENAME COLUMN old_column_name TO new_column_name;

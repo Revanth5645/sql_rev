@@ -1,0 +1,17 @@
+-- Drop a table
+DROP TABLE IF EXISTS table_name;
+
+-- Drop a database
+DROP DATABASE IF EXISTS database_name;
+
+-- Drop a view
+DROP VIEW IF EXISTS view_name;
+
+-- Drop an index
+DROP INDEX IF EXISTS index_name ON table_name;
+
+-- Drop a stored procedure
+DROP PROCEDURE IF EXISTS procedure_name;
+
+-- Drop a function
+DROP FUNCTION IF EXISTS function_name;

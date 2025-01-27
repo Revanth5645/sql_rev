@@ -1,0 +1,14 @@
+-- ROLLBACK statement in SQL is used to undo transactions that have not been saved to the database.
+-- It can be used to revert the database back to its previous state.
+
+-- Example usage:
+BEGIN TRANSACTION;
+
+-- Some SQL operations
+INSERT INTO Employees (EmployeeID, FirstName, LastName) VALUES (1, 'John', 'Doe');
+UPDATE Employees SET LastName = 'Smith' WHERE EmployeeID = 1;
+
+-- If something goes wrong, you can roll back the transaction
+ROLLBACK;
+
+-- The above operations will be undone, and the database will be in its previous state.
