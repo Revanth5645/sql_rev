@@ -1,0 +1,1 @@
+REVOKE SELECT, INSERT ON database_name.table_name FROM 'username'@'host';

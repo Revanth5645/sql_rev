@@ -1,0 +1,11 @@
+-- The COMMIT statement is used to save all changes made in the current transaction.
+-- Once a COMMIT statement is executed, the changes are permanent and cannot be undone.
+
+-- Example usage:
+BEGIN TRANSACTION;
+
+-- Your SQL operations here
+UPDATE employees SET salary = salary * 1.1 WHERE department = 'Sales';
+
+-- Save the changes
+COMMIT;
